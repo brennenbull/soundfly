@@ -37,8 +37,12 @@ class App extends Component {
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/4mAqG6KNWZQiekSthr2QtL")} />
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/0acQgAidYiiSWQrPZHHkzo")} />
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/7AzFID6u1b3zIWbd9pb8Dk")} />
-        <Firefly onClick={()=>this.clickBug('dog')} />
-        <Firefly onClick={()=>this.clickBug('dog')} />
+        <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/1ZWIQXfAquWtLDK5aOUczS")} />
+        <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/5rX6C5QVvvZB7XckETNych")} />
+        <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/3xY3mqQsnLqye9nWmXlo0t")} />
+        <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/59WTZPf9NQqv3PPSxwDTJq")} />
+        <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/79u7wxpk5WvcLqiOPj94c2")} />
+        <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/3zBhihYUHBmGd2bcQIobrF")} />
         <MusicPlayer player={this.state.bugSong}/>
 
       </div>
