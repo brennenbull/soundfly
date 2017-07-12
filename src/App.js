@@ -43,6 +43,9 @@ class App extends Component {
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/59WTZPf9NQqv3PPSxwDTJq")} />
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/79u7wxpk5WvcLqiOPj94c2")} />
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/3zBhihYUHBmGd2bcQIobrF")} />
+        <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/5IMtdHjJ1OtkxbGe4zfUxQ")} />
+        <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/5Z8EDau8uNcP1E8JvmfkZe")} />
+        <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/4rpNjW4HXxh8o5UwS7UoWL")} />
         <MusicPlayer player={this.state.bugSong}/>
 
       </div>
