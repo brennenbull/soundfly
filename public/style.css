@@ -133,3 +133,14 @@ button{
   font-family: 'Sacramento', sans-serif;
   color: #F3EBB6;
 }
+
+@media only screen and (max-width: 500px) {
+  .page-footer h3{
+    font-size: 1em;
+  }
+
+  .heading{
+    font-size: 3em;
+  }
+
+}
