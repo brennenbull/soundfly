@@ -1,13 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
+body, html{
+  overflow: hidden;
+}
 
 body{
   background-color: #1B2F35;
   background-image: url("./nightsky.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
 }
 
 .page-footer{
@@ -52,6 +54,7 @@ button{
 .fire-fly-container{
   width: 30px;
   height: 30px;
+
 }
 
 .fire-fly{
