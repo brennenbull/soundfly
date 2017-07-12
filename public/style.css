@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 
 body{
   background-color: #1B2F35;
@@ -10,7 +12,7 @@ body{
   padding-bottom: 2vh;
   height: 20vh;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   bottom: 0;
 }
 
@@ -34,11 +36,17 @@ iframe{
   height: 9vh;
   border-radius: 25px;
   border: solid 4px #9BA87F;
+  padding: 5px;
 }
 
 button{
   top: 50vh;
   position: absolute;
+}
+
+.fire-fly-container{
+  width: 30px;
+  height: 30px;
 }
 
 .fire-fly{
