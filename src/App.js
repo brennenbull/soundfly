@@ -3,7 +3,6 @@ import './App.css';
 import MusicPlayer from './components/Music';
 import Firefly from './components/Firefly';
 
-const bugs = [{ id: 1, bugSong: 1 }, { id: 2, bugSong: 2 }];
 
 
 class App extends Component {
