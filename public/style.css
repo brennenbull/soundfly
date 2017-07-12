@@ -6,7 +6,8 @@ body{
   background-color: #1B2F35;
   background-image: url("./nightsky.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .page-footer{
@@ -24,6 +25,7 @@ body{
   font-size: 40px;
   margin-top: 10px;
   color: #F3EBB6;
+  margin-bottom: 0;
 }
 
 img{
@@ -124,7 +126,7 @@ button{
   z-index: -1;
   font-size: 7em;
   position: absolute;
-  right: 0;
+  right: 24px;
   font-family: 'Sacramento', sans-serif;
   color: #F3EBB6;
 }
