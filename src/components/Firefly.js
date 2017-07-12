@@ -30,7 +30,7 @@ class Firefly extends Component {
 
   render() {
     const style = {
-      transform: `translate({Math.random() * 1200}px, ${Math.random() * 300}px)`,
+      transform: `translate(${Math.random() * 1200}px, ${Math.random() * 600}px)`,
       animationName: this.state.animationName,
       animationTimingFunction: 'linear',
       animationDuration: '20s',
