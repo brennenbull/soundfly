@@ -1,13 +1,15 @@
 import React from 'react'
 
-const MusicPlayer = () => {
-  return(
-    <footer className="page-footer">
-    <iframe src="https://open.spotify.com/embed/user/allchillnations/playlist/62NdQBnV6hhv8BREJQqTnb" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-      <h5 className="white-text">Click a bug!</h5>
-      <div className="footer-copyright">&copy; bugs</div>
-    </footer>
-  )
+class MusicPlayer extends React.Component {
+
+  render(){
+    return(
+      <footer className="page-footer">
+      <iframe src={this.props.player} width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        <h3 className="white-text">Click a bug!</h3>
+      </footer>
+    );
+  }
 }
 
 export default MusicPlayer
