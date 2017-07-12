@@ -4,6 +4,9 @@
 
 body{
   background-color: #1B2F35;
+  background-image: url("./nightsky.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 .page-footer{
