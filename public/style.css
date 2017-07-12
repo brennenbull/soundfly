@@ -36,6 +36,7 @@ iframe{
   height: 9vh;
   border-radius: 25px;
   border: solid 4px #9BA87F;
+  padding: 5px;
 }
 
 button{
