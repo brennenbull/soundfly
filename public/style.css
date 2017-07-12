@@ -108,3 +108,12 @@ button{
     opacity: 0;
   }
 }
+
+.heading {
+  z-index: -1;
+  font-size: 7em;
+  position: absolute;
+  right: 0;
+  font-family: 'Sacramento', sans-serif;
+  color: #F3EBB6;
+}

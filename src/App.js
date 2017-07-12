@@ -24,6 +24,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <span className="heading">SoundFly</span>
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/6PUIzlqotEmPuBfjbwYWOB")} />
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/30ZGbfPsjDNCgL21Qzciuj")} />
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/20XdEFyaUR9C7aDIdq2OAd")} />
