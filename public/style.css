@@ -1,21 +1,39 @@
 
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
 body{
   background-color: #1B2F35;
 }
 
 .page-footer{
-  background-color: #55633E;
+  background-color: #1F4817;
   padding-top: 5vh;
   padding-bottom: 2vh;
+  height: 20vh;
   position: absolute;
   width: 100%;
   bottom: 0;
 }
 
+.page-footer h3{
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  margin-top: 10px;
+  color: #F3EBB6;
+}
+
+img{
+  height: 12vh;
+  position: absolute;
+  bottom: 25vh;
+  width: 100vw;
+  left: 0;
+}
+
 iframe{
   width: 50vw;
   height: 9vh;
-  padding: 5px;
   border-radius: 25px;
   border: solid 4px #9BA87F;
 }
