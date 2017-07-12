@@ -11,7 +11,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      bugSong: "https://open.spotify.com/embed/track/5rX6C5QVvvZB7XckETNych"
+      bugSong: "https://open.spotify.com/embed/track/5IMtdHjJ1OtkxbGe4zfUxQ"
     }
     this.clickBug = this.clickBug.bind(this)
   }
