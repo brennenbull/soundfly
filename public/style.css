@@ -1,0 +1,25 @@
+body{
+  background-color: #1B2F35;
+}
+
+.page-footer{
+  background-color: #55633E;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+}
+
+iframe{
+  width: 50vw;
+  height: 9vh;
+  padding: 5px;
+  border-radius: 25px;
+  border: solid 4px #9BA87F;
+}
+
+button{
+  top: 50vh;
+  position: absolute;
+}

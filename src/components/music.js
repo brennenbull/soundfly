@@ -3,18 +3,9 @@ import React from 'react'
 const MusicPlayer = () => {
   return(
     <footer className="page-footer">
-      <div className="container">
-        <div className="row">
-          <div className="col l6 s12">
-            <h5 className="white-text">Click a bug!</h5>
-          </div>
-        </div>
-      </div>
-      <div className="footer-copyright">
-        <div className="container">
-          &copy; bugs
-        </div>
-      </div>
+    <iframe src="https://open.spotify.com/embed/user/allchillnations/playlist/62NdQBnV6hhv8BREJQqTnb" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      <h5 className="white-text">Click a bug!</h5>
+      <div className="footer-copyright">&copy; bugs</div>
     </footer>
   )
 }
