@@ -1,22 +1,15 @@
 import React from 'react'
 
-const MusicPlayer = () => {
-  return(
-    <footer className="page-footer">
-      <div className="container">
-        <div className="row">
-          <div className="col l6 s12">
-            <h5 className="white-text">Click a bug!</h5>
-          </div>
-        </div>
-      </div>
-      <div className="footer-copyright">
-        <div className="container">
-          &copy; bugs
-        </div>
-      </div>
-    </footer>
-  )
+class MusicPlayer extends React.Component {
+
+  render(){
+    return(
+      <footer className="page-footer">
+      <iframe src={this.props.player} width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        <h3 className="white-text">Click a bug!</h3>
+      </footer>
+    );
+  }
 }
 
 export default MusicPlayer
