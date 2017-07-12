@@ -9,7 +9,13 @@ class Firefly extends Component {
 
   render() {
     return(
-      <button onClick={this.handleClick}>bug</button>
+      // <button onClick={this.handleClick}>bug</button>
+      <div className = 'fire-fly-container'>
+        <div className ="fire-fly">
+          <div className ="pulse">
+          </div>
+        </div>
+      </div>
     )
   }
 }
