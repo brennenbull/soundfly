@@ -1,3 +1,6 @@
 # Soundfly
 ###
-#### Catch some summer before it flies away!
+#### Catch some summer tunes before they fly away!
+
+
+&copy; SoundFly, 2017 - MillingVanilling
